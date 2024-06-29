@@ -2,11 +2,11 @@ name: IPQ60XX-ALL
 
 on:
   workflow_dispatch:
-#  schedule:   https://github.com/King-Of-Knights/openwrt-6.x.git
+#  schedule:   https://github.com/King-Of-Knights/openwrt-6.x.git https://github.com/JiaY-shi/openwrt.git
 #    - cron: 0 19 * * *
 
 env:
-  REPO_URL: https://github.com/JiaY-shi/openwrt.git
+  REPO_URL: https://github.com/youaokok/openwrt-6.git
   REPO_BRANCH: ipq60xx-devel_nss
   CONFIG_FILE: configs/ipq60xx-all.config
   PATCHES_FILE_1: patches/0001-show-soc-status-on-luci.patch
