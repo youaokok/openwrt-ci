@@ -147,7 +147,7 @@ index 45f7b4a..b83955c 100644
  				systeminfo.load[2] / 65535.0
 -			) : null
 +			) : null,
-+			_('核心温度'),          'CPU ' + coretemp.cpu + ' °C',
++			_('核心温度'),          'CPU ' + coretemp.cpu + ' °C' + ' / ' + 'WiFi ' + coretemp.wifi + ' °C',
 +			_('使用率'),            'CPU ' + coreusage.cpu + '%' + ' / ' + 'NSS ' + coreusage.nss + '%'
  		];
  
