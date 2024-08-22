@@ -1,4 +1,4 @@
-name: mtk-ALL
+name: IPQ60XX-ALL
 
 on:
   workflow_dispatch:
@@ -14,7 +14,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: mtk-ALL
+  FIRMWARE_TAG: IPQ60XX-ALL
   TZ: Asia/Shanghai
 
 jobs:
