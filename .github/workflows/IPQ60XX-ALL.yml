@@ -2,11 +2,11 @@ name: IPQ60XX-ALL
 
 on:
   workflow_dispatch:
-#  schedule:
+#  schedule:    https://github.com/VIKINGYFY/immortalwrt
 #    - cron: 0 19 * * *    https://github.com/King-Of-Knights/openwrt-6.x.git  https://github.com/youaokok/immortalwrt.git
 
 env:
-  REPO_URL: https://github.com/LiBwrt-op/openwrt-6.x.git
+  REPO_URL: https://github.com/VIKINGYFY/immortalwrt
   REPO_BRANCH: main
   CONFIG_FILE: configs/ipq60xx-all.config
   DIY_SCRIPT: diy-script.sh
