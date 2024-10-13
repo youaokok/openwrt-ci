@@ -1,4 +1,4 @@
-name: IPQ60XX-6.6.36
+name: IPQ60XX-ALL
 on:
   workflow_dispatch:
 #  schedule:   https://github.com/King-Of-Knights/openwrt-6.x.git   https://github.com/LiBwrt-op/openwrt-6.x.git
