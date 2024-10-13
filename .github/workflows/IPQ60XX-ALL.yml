@@ -6,7 +6,7 @@ on:
 
 env:
   REPO_URL: https://github.com/youaokok/openwrt-66.x.git
-  REPO_BRANCH: openwrt-6.6.36
+  REPO_BRANCH: op-6.6.53
   CONFIG_FILE: configs/ipq60xx-all.config
   #PATCHES_FILE_1: patches/0001-show-soc-status-on-luci.patch
   DIY_SCRIPT: diy-script.sh
