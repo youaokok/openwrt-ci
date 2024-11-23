@@ -7,7 +7,7 @@ on:
 
 env:
   REPO_URL: https://github.com/laipeng668/immortalwrt
-  REPO_BRANCH: main
+  REPO_BRANCH: openwrt-24.10
   CONFIG_FILE: configs/ipq60xx-all.config
   DIY_SCRIPT: diy-script.sh
   CLASH_KERNEL: amd64
