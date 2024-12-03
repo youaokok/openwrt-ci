@@ -5,8 +5,8 @@ on:
 #    - cron: 0 19 * * *   https://github.com/youaokok/openwrt-66.x.git   https://github.com/JiaY-shi/openwrt.git ipq60xx-devel_nss
 
 env:
-  REPO_URL: https://github.com/breeze303/openwrt-ipq
-  REPO_BRANCH: main
+  REPO_URL: https://github.com/LiBwrt/openwrt-6.x.git
+  REPO_BRANCH: openwrt-24.10
   CONFIG_FILE: configs/ipq60xx-all.config
   #PATCHES_FILE_1: patches/0001-show-soc-status-on-luci.patch
   DIY_SCRIPT: diy-script.sh
@@ -14,7 +14,7 @@ env:
   CACHE_TOOLCHAIN: true
   UPLOAD_BIN_DIR: false
   FIRMWARE_RELEASE: true
-  FIRMWARE_TAG: IPQ60XX-6.x-nss-wifi
+  FIRMWARE_TAG: IPQ60XX-24.10
   TZ: Asia/Shanghai
 
 jobs:
